@@ -2,10 +2,7 @@
 /**
  * Template Name: Homepage
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * 
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -15,8 +12,16 @@
 get_header();
 ?>
 
+<!-- This is the homepage -->
+
 	<main id="primary" class="site-main">
-    hello jeffrey!
+    <div class="container top-section">
+        <div class="jeff">
+        </div>
+
+
+        
+    </div>
 		
 
 	</main><!-- #main -->
