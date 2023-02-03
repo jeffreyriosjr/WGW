@@ -686,10 +686,10 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: white;
-	font-size: 24px;
+	color: black;
+	font-size: 22px;
 	font-family: 'Montserrat-thin';
-	font-weight: 500;
+	letter-spacing: 0.3rem;
 }
 
 /* Small menu. */
@@ -884,7 +884,7 @@ textarea {
 --------------------------------------------- */
 .site-footer {
 	height: 250px;
-	background: linear-gradient(-45deg, #ccd1ef 0%, #f5f6f7 13%, #fdfcff 25%, #0991a1 38%, #edf9fb 50%, #34b900 62%, #f18271 75%, white 100%);
+	background: linear-gradient(-45deg, #ccd1ef 0%, #f5f6f7 13%, #fdfcff 25%, #0991a1 38%, #edf9fb 50%, white 100%);
 	background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
 	display: flex;
@@ -1079,9 +1079,10 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	padding: 0;
-	background: linear-gradient(-45deg, #13289e 0%, #addf70 13%, #5016a7 25%, #869aa9 38%, #11ceef 50%, #0dadde 62%, #28b3d6 75%, #0f3456 87%, #78e6f7 100%);
-	animation: gradient 15s ease infinite;
-	background-size: 250% 250%;
+	height: 150px;
+	background: linear-gradient(-45deg, #ccd1ef 0%, #3978b7 13%, #fdfcff 25%, #0991a1 38%, #edf9fb 50%, white 100%);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
 }
 
 .main-header .smyle-logo .blk-wht-logo {
