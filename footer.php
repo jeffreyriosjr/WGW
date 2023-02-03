@@ -11,26 +11,45 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'whats-good-wednesday' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'whats-good-wednesday' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'whats-good-wednesday' ), 'whats-good-wednesday', '<a href="http://underscores.me/">jeffrey alexander rios</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="site-footer">
+
+<div class="body-footer">
+  <div class="header mb-5">
+  <h1 class="footer-header mb-0">Stay in touch with Us<span>
+  </div>
+  <div class="all-logos text-center d-flex container">
+	<div class="footer-all col-12">
+		<ul class="icon-section">
+		  <li class="icon-links">
+			  <a href="">
+			<i class="fab fa-facebook-f"></i></a></li>
+		  <li class="icon-links">
+			<a href="">
+			  <i class="fab fa-instagram"></i></a></li>
+			  <li class="icon-links">
+			<a href="">
+			  <i class="fab fa-soundcloud"></i></a></li>
+			  <li class="icon-links">
+			<a href="">
+			  <i class="fab fa-spotify"></i></a></li>
+		</ul>
+		</div>
+
+		<div class="col container">
+		  <img src="" alt="" class="footer-right-logo">
+	  </div>
+		</div>
+
+		<?php if (has_nav_menu('footer-community-menu')): ?>
+
+
+  <?php endif;?>
+  </div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </html>
