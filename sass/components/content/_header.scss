@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: row;
   padding: 0;
-  height: 150px;
   background: linear-gradient(-45deg,
       #ccd1ef 0%,
       #3978b7 13%,
@@ -16,64 +15,10 @@
       white 100%);
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
-
-  .smyle-logo {
-    .blk-wht-logo {
-      width: 375px;
-      margin-left: 15px;
-    }
-  }
-
-  .logo-headers,
-  .the-a-tag {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px 0px 30px;
-    text-shadow: 0 0 10px #212222, 0 0 20px #00b3ff, 0 0 40px #cbd8d8,
-      0 0 80px #f7fdff, 0 0 120px #242424;
-    color: white;
-    text-decoration: none;
-    background-size: 400%;
-    // animation: text-gradient 5s ease infinite;
-    padding: 5px 0;
-
-    @keyframes text-gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-
-      50% {
-        background-position: 100% 50%;
-      }
-
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-  }
-
-  @media all and (max-width: 320px) {
-    font-size: 18px;
-  }
-
-  .header-logo-one {
-    margin: 0px 0px 0px 25px;
-    font-size: 44px;
-    width: fit-content;
-
-    @media all and (max-width: 768px) {
-      font-size: 32px;
-    }
-  }
-
-  .header-logo-two {
-    margin: -10px -25px;
-    font-size: 18px;
-    width: max-content;
-
-    @media all and (max-width: 768px) {
-      font-size: 14px;
+  .logo {
+    width: 160px;
+    @media all and (max-width: 500px) {
+      width: 110px;
     }
   }
 
@@ -99,11 +44,12 @@
   .smyle-navbar {
     height: 100%;
     display: flex;
-    justify-content: end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     .menu-items {
-      margin: 20px 10px;
+      margin: 40px 10px;
       animation: animate 5s linear infinite;
       font-size: 14px;
       border: 1px;
@@ -112,11 +58,11 @@
       font-family: 'Montserrat';
     }
 
-    .toggle-logo {
-      width: 25px;
-      text-align: center;
-      filter: invert(46%) sepia(99%) saturate(2071%) hue-rotate(162deg) brightness(95%) contrast(102%);
-    }
+    // .toggle-logo {
+    //   width: 25px;
+    //   text-align: center;
+    //   filter: invert(46%) sepia(99%) saturate(2071%) hue-rotate(162deg) brightness(95%) contrast(102%);
+    // }
 
     .menu-items.toggled ul {
       display: flex;
@@ -181,7 +127,7 @@
 @media screen and (max-width: 768px) {
   .main-navigation.toggled ul {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column-reverse;
   }
 }

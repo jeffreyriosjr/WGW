@@ -40,6 +40,12 @@ wp_nav_menu(
     )
 );
 ?>
+<div>
+			<a type="button" href="http://whats-good-wednesday.local/">
+			<img class="logo" src="http://whats-good-wednesday.local/wp-content/uploads/2023/03/Dark-Blue-and-Purple-Neon-Podcast-Circle-Sticker.png">
+			</a>
+		</div>
 		</nav>
+
 		</div><!-- #site-navigation -->
 	</header><!-- #masthead -->
