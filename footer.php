@@ -20,12 +20,6 @@
   <div class="all-logos text-center d-flex container">
 	<div class="footer-all col-12">
 		<ul class="icon-section">
-		  <li class="icon-links">
-			  <a href="">
-			<i class="fab fa-facebook-f"></i></a></li>
-		  <li class="icon-links">
-			<a href="">
-			  <i class="fab fa-instagram"></i></a></li>
 			  <li class="icon-links">
 			<a href="">
 			  <i class="fab fa-soundcloud"></i></a></li>
