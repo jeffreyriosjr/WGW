@@ -11,13 +11,13 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer container">
-		<div class="site-info">
+	<footer id="colophon" class="site-footer container-fluid">
+		<div class="site-info container">
 		<div class="body-footer">
   <div class="header mb-5">
   <h1 class="footer-header mb-0">Stay in touch with Us<span>
   </div>
-  <div class="all-logos text-center d-flex container">
+  <div class="all-logos text-center d-flex">
 	<div class="footer-all col-12">
 		<ul class="icon-section">
 			  <li class="icon-links">
